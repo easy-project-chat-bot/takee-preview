@@ -1,0 +1,131 @@
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.profile-header {
+  font-family: sans-serif;
+  background-color: white;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 30px;
+  padding-left: 25px;
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.username {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.user-details {
+    margin-left: 10px;
+}
+.user-details .name {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.stats {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.tab {
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #888;
+}
+
+.tab.active {
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tab.disabled {
+  color: #ccc;
+  cursor: default;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+.home {
+    margin: auto;
+}
+.home :hover {
+    opacity: 50%;
+}
+.fav {
+    margin: auto;
+}
+.fav :hover {
+    opacity: 50%;
+}
+.chats {
+    margin: auto;
+}
+.chats :hover {
+    opacity: 50%;
+}
+.profile {
+    margin: auto;
+}
+.profile :hover {
+    opacity: 50%;
+}

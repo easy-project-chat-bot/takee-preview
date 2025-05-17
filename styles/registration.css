@@ -37,7 +37,7 @@ body {
     border-radius: 16px;
     padding: 10px;
     gap: 10px;
-    border-color: 1px solid #B0AEAE;
+    border: 1px solid #B0AEAE;
     color: #000000;
     margin-bottom: 15px;
 }
@@ -47,7 +47,7 @@ body {
     border-radius: 16px;
     padding: 10px;
     gap: 10px;
-    border-color: 1px solid #B0AEAE;
+    border: 1px solid #B0AEAE;
     color: #000000;
 }
 .knopochki {

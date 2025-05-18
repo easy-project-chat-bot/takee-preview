@@ -1,7 +1,7 @@
 {
   "name": "takee",
   "short_name": "takee",
-  "start_url": "/",
+  "start_url": "/takee-preview/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#222222",

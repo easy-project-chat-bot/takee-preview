@@ -207,6 +207,7 @@ body {
     grid-template-columns: 1fr 1fr; /* две колонки */
     max-height: 550px; 
     overflow-y: auto;
+    height: 750px;
 }
 .temki::-webkit-scrollbar {
   display: none; /* Chrome, Safari */

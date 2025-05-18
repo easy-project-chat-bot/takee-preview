@@ -7,12 +7,12 @@
   "theme_color": "#222222",
   "icons": [
     {
-      "src": "https://easy-project-chat-bot.github.io/takee-preview/frontend/img/Frame192.png",
+      "src": "https://easy-project-chat-bot.github.io/takee-preview/frontend/img/icon192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://easy-project-chat-bot.github.io/takee-preview/frontend/img/Frame512.png",
+      "src": "https://easy-project-chat-bot.github.io/takee-preview/frontend/img/icon512.png",
       "sizes": "512x512",
       "type": "image/png"
     }

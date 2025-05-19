@@ -198,7 +198,7 @@ html, body {
     grid-template-columns: 1fr 1fr; /* две колонки */
     overflow-y: auto;
     height: 750px;
-    margin-bottom: 55px;
+    margin-bottom: 110px;
     margin-top: 166px;
     height: calc(100vh - 221px); /* 166px header + 55px footer */
 }

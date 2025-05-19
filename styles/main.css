@@ -201,6 +201,7 @@ html, body {
     margin-bottom: 110px;
     margin-top: 166px;
     height: calc(100vh - 221px); /* 166px header + 55px footer */
+    padding-bottom: 70px;
 }
 .temki::-webkit-scrollbar {
   display: none; /* Chrome, Safari */

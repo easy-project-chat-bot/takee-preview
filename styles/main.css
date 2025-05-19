@@ -8,26 +8,7 @@ body {
 
 
 
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: white;
-  z-index: 9999;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 
-.modal-content {
-  width: 100%;
-  max-width: 600px;
-  text-align: center;
-
-}
 .close-btn {
   position: absolute;
   background: none;
@@ -50,9 +31,14 @@ body {
 
 
 
+.header {
+    position: fixed;
+    background-color: white;
+    top: 0px;
 
+}
 .namebar {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,7 +69,7 @@ body {
     opacity: 50%;
 }
 .filter {
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
@@ -201,13 +187,20 @@ body {
 .filter::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
 }
-
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* отключает скролл страницы */
+}
 .temki {
     display: grid;
     grid-template-columns: 1fr 1fr; /* две колонки */
-    max-height: 550px; 
     overflow-y: auto;
     height: 750px;
+    margin-bottom: 55px;
+    margin-top: 166px;
+    height: calc(100vh - 221px); /* 166px header + 55px footer */
 }
 .temki::-webkit-scrollbar {
   display: none; /* Chrome, Safari */

@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 .namebar {
-    margin-top: 55px;
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;

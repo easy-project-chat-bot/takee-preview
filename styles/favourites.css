@@ -4,9 +4,16 @@ body {
     margin: 0;
 }
 .namebar {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+}
+.header {
+    position: fixed;
+    background-color: white;
+    top: 0px;
 }
 .name {
     color: rgba(51, 51, 51, 1);
@@ -19,8 +26,8 @@ body {
     transform: scale(1, 0.7);
 }
 .notif {
-    width: 24;
-    height: 24;
+    width: 24px;
+    height: 24px;
     border-radius: 100px;
     border: none;
     background-color: rgb(212, 212, 212);
@@ -28,12 +35,13 @@ body {
     background: none;
     margin-right: 10px;
     cursor: pointer;
+    margin-right: 20px;
 }
 .notif1:hover {
     opacity: 50%;
 }
 .filter {
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     overflow-x: auto;
     white-space: nowrap;

@@ -52,6 +52,10 @@ body {
     font-weight: 550;
     margin-left: 20px;
     transform: scale(1, 0.7);
+    -webkit-tap-highlight-color: transparent;
+}
+.name :hover {
+    opacity: 50%;
 }
 .notif {
     width: 24px;
@@ -64,6 +68,7 @@ body {
     margin-right: 10px;
     cursor: pointer;
     margin-right: 20px;
+    -webkit-tap-highlight-color: transparent;
 }
 .notif1:hover {
     opacity: 50%;
@@ -200,7 +205,7 @@ html, body {
     height: 750px;
     margin-bottom: 110px;
     margin-top: 166px;
-    height: calc(100vh - 221px); /* 166px header + 55px footer */
+    height: calc(var(--vh, 1vh) * 100 - 221px);
     padding-bottom: 70px;
 }
 .temki::-webkit-scrollbar {
@@ -500,24 +505,28 @@ html, body {
 }
 .home {
     margin: auto;
+    -webkit-tap-highlight-color: transparent;
 }
 .home :hover {
     opacity: 50%;
 }
 .fav {
     margin: auto;
+    -webkit-tap-highlight-color: transparent;
 }
 .fav :hover {
     opacity: 50%;
 }
 .chats {
     margin: auto;
+    -webkit-tap-highlight-color: transparent;
 }
 .chats :hover {
     opacity: 50%;
 }
 .profile {
     margin: auto;
+    -webkit-tap-highlight-color: transparent;
 }
 .profile :hover {
     opacity: 50%;

@@ -136,5 +136,17 @@
             <img src="img/Group 599.png" alt="">
         </a>
     </footer>
+
+    <script>
+  function setVH() {
+    const vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  }
+
+  window.addEventListener('resize', setVH);
+  window.addEventListener('orientationchange', setVH);
+  window.addEventListener('load', setVH);
+  setVH(); // и сразу при первом запуске
+</script>
 </body>
 </html>

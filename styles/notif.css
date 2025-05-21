@@ -20,6 +20,7 @@ body {
     font-size: 30px;
     font-weight: 550;
     margin-left: 20px;
+    -webkit-tap-highlight-color: transparent;
 }
 .notif {
     width: 24px;
@@ -32,7 +33,7 @@ body {
     margin-right: 10px;
     cursor: pointer;
     margin-right: 20px;
-
+    -webkit-tap-highlight-color: transparent;
 }
 .notif1:hover {
     opacity: 50%;

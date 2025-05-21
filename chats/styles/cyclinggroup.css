@@ -15,6 +15,10 @@ body {
 .backbutton {
     margin-left: 20px;
     margin-bottom: 5px;
+    -webkit-tap-highlight-color: transparent;
+}
+.backbutton :hover {
+    opacity: 50%;
 }
 .image {
     margin-right: 20px;
@@ -53,7 +57,7 @@ body {
 .vvod {
     width: 250px;
     height: 20px;
-    border-radius: 100px;
+    border-radius: 10px;
     padding: 10px;
     gap: 10px;
     background-color: #EFEFEF;
@@ -62,7 +66,6 @@ body {
     margin-left: 20px;
     margin-top: 11px;
     margin-right: 10px;
-
 }
 .send {
     border: none;

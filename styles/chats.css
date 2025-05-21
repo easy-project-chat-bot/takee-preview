@@ -31,24 +31,28 @@ body {
 }
 .home {
     margin: auto;
+    -webkit-tap-highlight-color: transparent;
 }
 .home :hover {
     opacity: 50%;
 }
 .fav {
     margin: auto;
+    -webkit-tap-highlight-color: transparent;
 }
 .fav :hover {
     opacity: 50%;
 }
 .chats {
     margin: auto;
+    -webkit-tap-highlight-color: transparent;
 }
 .chats :hover {
     opacity: 50%;
 }
 .profile {
     margin: auto;
+    -webkit-tap-highlight-color: transparent;
 }
 .profile :hover {
     opacity: 50%;

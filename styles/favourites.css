@@ -24,6 +24,7 @@ body {
     font-weight: 550;
     margin-left: 20px;
     transform: scale(1, 0.7);
+    -webkit-tap-highlight-color: transparent;
 }
 .notif {
     width: 24px;
@@ -36,6 +37,7 @@ body {
     margin-right: 10px;
     cursor: pointer;
     margin-right: 20px;
+    -webkit-tap-highlight-color: transparent;
 }
 .notif1:hover {
     opacity: 50%;
@@ -182,24 +184,28 @@ body {
 }
 .home {
     margin: auto;
+    -webkit-tap-highlight-color: transparent;
 }
 .home :hover {
     opacity: 50%;
 }
 .fav {
     margin: auto;
+    -webkit-tap-highlight-color: transparent;
 }
 .fav :hover {
     opacity: 50%;
 }
 .chats {
     margin: auto;
+    -webkit-tap-highlight-color: transparent;
 }
 .chats :hover {
     opacity: 50%;
 }
 .profile {
     margin: auto;
+    -webkit-tap-highlight-color: transparent;
 }
 .profile :hover {
     opacity: 50%;

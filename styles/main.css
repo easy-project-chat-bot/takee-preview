@@ -273,6 +273,9 @@ html, body {
 .temki::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
 }
+.ta1 {
+    -webkit-tap-highlight-color: transparent;
+}
 .tema1 {
     background: rgba(255, 255, 255, 1);
     box-shadow: 0px 4px 16px 0px rgba(0, 1, 29, 0.06);
@@ -284,6 +287,7 @@ html, body {
     text-align: left;
     display: flex;
     flex-direction: column;
+    
 }
 .t1 {
     width: 160px;
@@ -305,7 +309,46 @@ html, body {
     margin-bottom: 0px;
     margin-left: 10px;
 }
-
+.favor {
+    position: relative;
+    margin-top: 0px;
+}
+.ficon {
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    backdrop-filter: blur(40px);
+    background-color: #FFFFFF40;
+    border: none;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.ficon.active {
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    backdrop-filter: blur(40px);
+    background-color:#F2968F;
+    border: none;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.favimg {
+    height: 20px;
+    width: 20px;
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
+.ta2 {
+    -webkit-tap-highlight-color: transparent;
+}
 .tema2 {
     background: rgba(255, 255, 255, 1);
     box-shadow: 0px 4px 16px 0px rgba(0, 1, 29, 0.06);
@@ -338,7 +381,9 @@ html, body {
     margin-bottom: 0px;
     margin-left: 10px;
 }
-
+.ta3 {
+    -webkit-tap-highlight-color: transparent;
+}
 .tema3 {
     background: rgba(255, 255, 255, 1);
     box-shadow: 0px 4px 16px 0px rgba(0, 1, 29, 0.06);
@@ -371,7 +416,9 @@ html, body {
     margin-bottom: 0px;
     margin-left: 10px;
 }
-
+.ta4 {
+    -webkit-tap-highlight-color: transparent;
+}
 .tema4 {
     background: rgba(255, 255, 255, 1);
     box-shadow: 0px 4px 16px 0px rgba(0, 1, 29, 0.06);
@@ -404,7 +451,9 @@ html, body {
     margin-bottom: 0px;
     margin-left: 10px;
 }
-
+.ta5 {
+    -webkit-tap-highlight-color: transparent;
+}
 .tema5 {
     background: rgba(255, 255, 255, 1);
     box-shadow: 0px 4px 16px 0px rgba(0, 1, 29, 0.06);
@@ -437,7 +486,9 @@ html, body {
     margin-bottom: 0px;
     margin-left: 10px;
 }
-
+.ta6 {
+    -webkit-tap-highlight-color: transparent;
+}
 .tema6 {
     background: rgba(255, 255, 255, 1);
     box-shadow: 0px 4px 16px 0px rgba(0, 1, 29, 0.06);
@@ -470,7 +521,9 @@ html, body {
     margin-bottom: 0px;
     margin-left: 10px;
 }
-
+.ta7 {
+    -webkit-tap-highlight-color: transparent;
+}
 .tema7 {
     background: rgba(255, 255, 255, 1);
     box-shadow: 0px 4px 16px 0px rgba(0, 1, 29, 0.06);
@@ -504,7 +557,9 @@ html, body {
     margin-bottom: 0px;
     margin-left: 10px;
 }
-
+.ta8 {
+    -webkit-tap-highlight-color: transparent;
+}
 .tema8 {
     background: rgba(255, 255, 255, 1);
     box-shadow: 0px 4px 16px 0px rgba(0, 1, 29, 0.06);
@@ -539,7 +594,9 @@ html, body {
     margin-bottom: 0px;
     margin-left: 10px;
 }
-
+.ta9 {
+    -webkit-tap-highlight-color: transparent;
+}
 .tema9 {
     background: rgba(255, 255, 255, 1);
     box-shadow: 0px 4px 16px 0px rgba(0, 1, 29, 0.06);

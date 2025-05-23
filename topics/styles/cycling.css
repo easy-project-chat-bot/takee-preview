@@ -7,7 +7,7 @@ body {
 .block1 {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     height: 400px;
 }
 .bigimage {
@@ -20,7 +20,7 @@ body {
     position: absolute;
     width: 32;
     height: 32;
-    top: 65px;
+    top: 43px;
     left: 43px;
     -webkit-tap-highlight-color: transparent;
 }
@@ -31,7 +31,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
 }
 .txt1 {
     margin-left: 20px;

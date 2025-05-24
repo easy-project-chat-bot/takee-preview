@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="favor">
         <img src="${data.img}" alt="" class="t${data.id}">
         <button class="ficon">
-          <img src="img/Vector (4).png" alt="" class="favimg" style="width: 20px; height: 20px;">
+          <img src="img/Vector (5).png" alt="" class="favimg" style="width: 20px; height: 20px;">
         </button>
       </div>
       <p class="tt${data.id}">${data.title}</p>
